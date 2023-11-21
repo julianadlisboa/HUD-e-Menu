@@ -40,6 +40,15 @@ Ele imprime "Stay" no console e rotaciona o objeto colidindo ao longo do eixo Z,
 Portanto, este script está controlando o comportamento do objeto associado em resposta a colisões com um objeto chamado "Cube", alterando a cor do objeto durante a entrada e a saída da colisão, e realizando uma rotação enquanto permanece em colisão.
 
 
+<h2>Colisão para o fim de cena:</h2>
+
+![image](https://github.com/julianadlisboa/HUD-e-Menu/assets/128002239/7050a822-201d-435b-9667-8ba04ed63991)
+
+Método OnCollisionEnter:
+Este método é chamado quando o objeto associado a esse script colide com outro objeto. Se a colisão ocorrer entre o alvo e a bola, é redirecionado para a tela de fim de jogo.
+
+
+
 
 <h2>Script botões fim de cena:</h2>
 
@@ -56,6 +65,12 @@ Este método é público (public) e não retorna nenhum valor (void). Ele usa a 
 
 Método Reiniciar():
 Similar ao método Voltar(), este método carrega uma cena chamada "jogocolisores". Isso geralmente é usado para reiniciar a fase ou recarregar uma cena específica do jogo.
+
+
+
+https://github.com/julianadlisboa/HUD-e-Menu/assets/128002239/f85b743d-cfff-489e-9913-ed76ed007ed8
+
+
 
 Método Fechar():
 Este método usa a classe Application do Unity para encerrar o aplicativo. Isso geralmente é usado para fechar o jogo quando chamado.
